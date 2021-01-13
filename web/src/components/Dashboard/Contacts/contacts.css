@@ -1,0 +1,30 @@
+.contact {
+  position: relative;
+}
+
+.contact:hover > .tools {
+  visibility: visible;
+}
+
+.tools {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.add-contact {
+  position: fixed;
+  bottom: 35px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

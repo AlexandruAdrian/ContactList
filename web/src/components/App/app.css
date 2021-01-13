@@ -1,0 +1,8 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  height: calc(100vh - 70px);
+}
+
+#root {
+  height: 100%;
+}

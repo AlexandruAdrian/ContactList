@@ -1,0 +1,15 @@
+.profile {
+  cursor: pointer;
+}
+
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}

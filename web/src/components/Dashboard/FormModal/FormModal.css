@@ -1,0 +1,35 @@
+.add-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+}
+
+.add-modal-overlay > form {
+  width: 90%;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  right: -11px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #000;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  .add-modal-overlay > form {
+    width: 40%;
+  }
+}
